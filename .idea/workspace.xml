@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6673fbfa-b8ca-4ce9-94fb-24cd07695cb9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Cell-Segmentation/Contours/countours.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cell-Segmentation/Contours/countours.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cell-Segmentation/Thresholding/hsv_thresholding.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cell-Segmentation/Thresholding/hsv_thresholding.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mix_runner.py" beforeDir="false" afterPath="$PROJECT_DIR$/mix_runner.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,7 +13,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Mixer$watershed.coverage" NAME="watershed Coverage Results" MODIFIED="1542538947378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Cell-Segmentation/Watershed" />
-    <SUITE FILE_PATH="coverage/Mixer$mix_runner.coverage" NAME="mix_runner Coverage Results" MODIFIED="1542542434493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Mixer$mix_runner.coverage" NAME="mix_runner Coverage Results" MODIFIED="1542557852038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Mixer$countours.coverage" NAME="countours Coverage Results" MODIFIED="1542539278052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Cell-Segmentation/Contours" />
     <SUITE FILE_PATH="coverage/Mixer$hsv_thresholding.coverage" NAME="hsv_thresholding Coverage Results" MODIFIED="1542535494561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Cell-Segmentation/Thresholding" />
   </component>
@@ -27,26 +27,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="csv" value="2" />
+          <entry key="csv" value="16" />
           <entry key="jpg" value="1" />
-          <entry key="py" value="7" />
+          <entry key="py" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="1" />
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="7" />
+          <entry key="PLAIN_TEXT" value="16" />
+          <entry key="Python" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1597" />
+          <entry key="py" value="3879" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1597" />
+          <entry key="Python" value="3879" />
         </counts>
       </usages-collector>
     </session>
@@ -56,12 +56,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mix_runner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="37" column="51" lean-forward="true" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="51" />
+            <state relative-caret-position="360">
+              <caret line="100" column="94" selection-start-line="100" selection-start-column="94" selection-end-line="100" selection-end-column="94" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
-                <marker date="1542542434481" expanded="true" signature="145:687" ph="..." />
-                <marker date="1542542434481" expanded="true" signature="766:1954" ph="..." />
+                <marker date="1542558304196" expanded="true" signature="2000:2018" ph="..." />
+                <marker date="1542558304196" expanded="true" signature="2289:3338" ph="..." />
               </folding>
             </state>
           </provider>
@@ -70,32 +70,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-1120166012/cv2/cv2/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="3046" column="4" selection-start-line="3046" selection-start-column="4" selection-end-line="3046" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cell-Segmentation/Watershed/watershed.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-42">
-              <caret line="7" column="26" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cell-Segmentation/Contours/countours.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-33">
-              <caret line="67" column="53" selection-start-line="67" selection-start-column="53" selection-end-line="67" selection-end-column="53" />
-              <folding>
-                <element signature="e#0#37#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="150">
+              <caret line="7647" column="4" selection-start-line="7647" selection-start-column="4" selection-end-line="7647" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -110,7 +86,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Cell-Segmentation" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -292,7 +268,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15186246" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15186246" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
@@ -302,8 +278,8 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32884097" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32884097" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32884097" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39892185" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -371,19 +347,45 @@
     </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-1120166012/cv2/cv2/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="3046" column="4" selection-start-line="3046" selection-start-column="4" selection-end-line="3046" selection-end-column="4" />
+        <state relative-caret-position="150">
+          <caret line="7647" column="4" selection-start-line="7647" selection-start-column="4" selection-end-line="7647" selection-end-column="4" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/pip/_vendor/distlib/util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="1636" column="8" selection-start-line="1636" selection-start-column="8" selection-end-line="1636" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-1120166012/_csv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="131" column="4" selection-start-line="131" selection-start-column="4" selection-end-line="131" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/csv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="154" selection-start-line="154" selection-end-line="154" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1801" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mix_runner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="37" column="51" lean-forward="true" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="51" />
+        <state relative-caret-position="360">
+          <caret line="100" column="94" selection-start-line="100" selection-start-column="94" selection-end-line="100" selection-end-column="94" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
-            <marker date="1542542434481" expanded="true" signature="145:687" ph="..." />
-            <marker date="1542542434481" expanded="true" signature="766:1954" ph="..." />
+            <marker date="1542558304196" expanded="true" signature="2000:2018" ph="..." />
+            <marker date="1542558304196" expanded="true" signature="2289:3338" ph="..." />
           </folding>
         </state>
       </provider>
