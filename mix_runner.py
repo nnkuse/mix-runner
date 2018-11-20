@@ -2,6 +2,7 @@ import cv2
 import numpy as np
 import os
 import csv
+import imutils
 
 IMG_PATH = "images"
 LOWER_PURPLE = [0, 0, 0]
@@ -19,7 +20,7 @@ def resize_by_width(image, size=RESIZE_BY_WIDTH):
 	newX, newY = image.shape[1] * imgScale, image.shape[0] * imgScale
 	img_coppy = cv2.resize(image, (int(newX), int(newY)))
 
-	return image
+	return img_coppy
 
 def hsv(image):
 
@@ -87,8 +88,19 @@ def main():
 						rect = cv2.minAreaRect(contour)
 						box = cv2.boxPoints(rect)
 						box = np.int0(box)
-						print(box)
 
+						height, width = 0,0
+						dis_1 = np.sqrt(((box[0][0] - box[3][0]) ** 2) + ((box[0][1] - box[3][1]) ** 2))
+						dis_2 = np.sqrt(((box[0][0] - box[1][0]) ** 2) + ((box[0][1] - box[1][1]) ** 2))
+						# print(m1, m2)
+						if dis_1 > dis_2:
+							width = dis_1
+							height = dis_2
+						else:
+							width = dis_2
+							height = dis_1
+
+						print("widht: " + str(width) + " ,height: " + str(height))
 						print(os.path.join(sub_dirpath, sub_name))
 						# show image
 						if SHOW_IMG:
@@ -99,15 +111,15 @@ def main():
 							cv2.waitKey(0)
 
 						#TODO เหลือคำนวณหา ความกว้าง ความสูง (x1, y1, x2, y2) อยู่ในตัวแปล box
-						# data_writer.writerow(
-						# 	{
-						# 		'image_path': os.path.join(sub_dirpath, sub_name),
-						# 		'width': name,
-						# 		'height': name,
-						# 		'area': cv2.contourArea(contour),
-						# 		'class': name
-						# 	}
-						# )
+						data_writer.writerow(
+							{
+								'image_path': os.path.join(sub_dirpath, sub_name),
+								'width': width,
+								'height': height,
+								'area': cv2.contourArea(contour),
+								'class': name
+							}
+						)
 
 
 if __name__ == '__main__':
